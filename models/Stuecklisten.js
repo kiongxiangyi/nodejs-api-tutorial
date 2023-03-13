@@ -26,7 +26,7 @@ const Stuecklisten = sequelize.define(
     Dokument1: { type: Sequelize.STRING },
     Dokument2: { type: Sequelize.STRING },
     Bemerkung: { type: Sequelize.STRING },
-    AngelegtAm: { type: Sequelize.datetime },
+    AngelegtAm: { type: Sequelize.DATE },
     AngelegtVon: { type: Sequelize.STRING },
     BearbeitetAm: { type: Sequelize.DATE },
     BearbeitetVon: { type: Sequelize.STRING },
