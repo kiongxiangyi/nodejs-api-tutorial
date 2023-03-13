@@ -17,6 +17,11 @@ app.use(
 
 // route
 app.use("/Bauteile", require("./routes/Bauteile"));
+app.use("/Stuecklisten", require("./routes/Stuecklisten"));
+app.use(
+  "/StuecklistenBearbeitung",
+  require("./routes/StuecklistenBearbeitung")
+);
 
 // Error middleware
 app.use((err, req, res, next) => {
